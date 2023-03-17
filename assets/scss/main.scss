@@ -1,0 +1,36 @@
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Consolas", sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+// DS
+
+.wrapper-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.ds-nuxt-link {
+    color: black;
+    text-decoration: none;
+    &:hover {
+        color: #74b908;
+    }
+}
+
+.ds-nuxt-link_disable {
+    color: black;
+    text-decoration: none;
+}
+
